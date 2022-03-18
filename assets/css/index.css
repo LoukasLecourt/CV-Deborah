@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 210mm;
+    height: 297mm;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4mm;
+}
+
+li{
+    font-size: 3mm;
+}
+
+#left {
+    width: 105mm;
+    height: 100%;
+    background-color: #B3A2C7;
+}
+
+#left-top{
+    display : inline-block;
+    width: 0;
+    height : 1mm;
+    border-right : 103mm solid transparent;
+    border-bottom : 50mm solid #604A7B;
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 107mm solid transparent;
+    border-bottom : 52mm solid white;
+}
+
+#left-top h1{
+    color: white;
+    font-size: 25px;
+    width: 59mm;
+    margin-top: 13mm;
+    margin-left: 50mm;
+}
+
+#left-top h2{
+    color: white;
+    width: 59mm;
+    margin-top: 13mm;
+    margin-left: 5mm;
+}
+
+#left-middle img{
+    width: 13mm;
+    margin-top: 12mm;
+}
+
+#left-middle .adress-mail img{
+    width: 18mm;
+    margin-top: 12mm;
+}
+
+#left-middle li{
+    text-align: center;
+    margin-top: 1mm;
+}
+
+#left-bottom {
+    padding-left: 13mm;
+}
+
+#left-bottom h3{
+    margin-top: 10mm;
+    margin-left: 3mm;
+    background-color: #604A7B;
+    border-color: white;
+    border-style: solid;
+    border-width: 1mm;
+    border-radius: 2mm;
+    width: 70mm;
+    text-align: center;
+    color: white;
+}
+
+#left-bottom li{
+    margin-left: 20mm;
+    margin-top: 3mm;
+    color: white;
+}
+
+#right{
+    width: 105mm;
+}
+
+#right h2{
+    margin-bottom: 5mm;
+}
+
+#text P{
+    text-align: center;
+    color: black;
+    margin-top: 4mm;
+    font-size: 3mm;
+}
+
+#formation {
+    display: flex;
+}
+
+.formation {
+    color: #B3A2C7;
+    font-size: 5mm;
+    margin-left: 6mm;
+    margin-top: 0mm;
+}
+
+.trait{
+    width: 70mm;
+    color: black;
+    margin-top: 10mm;
+    margin-left: 4mm;
+}
+
+#Etude ul {
+    margin-left: 3mm;
+}
+
+#experiences {
+    display: flex;
+}
+
+.experiences {
+    color: #B3A2C7;
+    font-size: 5mm;
+    margin-left: 6mm;
+    margin-top: 0mm;
+}
+
+#listing ul{
+    margin-left: 3mm;
+}
